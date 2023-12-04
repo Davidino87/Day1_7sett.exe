@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  height: 100%;
+  background-color: #6A2F81;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  min-width: 340px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.task-form {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  margin: 20px 10px;
+}
+
+#task-input {
+  padding: 5px;
+  border-radius: 7px;
+  border-color: #eee;
+  border: 1px solid #b7b6b6;
+  padding: 8px;
+  height: 25px;
+}
+
+#add-task {
+  padding: 5px 10px;
+  background-color: #00c3d9;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px 30px;
+}
+
+#add-task:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  background-color: aliceblue;
+  font-weight: bold;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.delete-button {
+  background-color: #ff4136;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white
+}
+
+.delete-button img {
+  height: 20px;
+}
+
+.delete-button:hover {
+  background-color: #d9534f;
+}
